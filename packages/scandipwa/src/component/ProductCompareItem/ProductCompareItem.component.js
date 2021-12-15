@@ -32,6 +32,7 @@ export class ProductCompareItem extends PureComponent {
         addItemToCart: PropTypes.func.isRequired,
         isLoading: PropTypes.bool.isRequired,
         product: ProductType.isRequired,
+        handleRedirect: PropTypes.func.isRequired,
         removeComparedProduct: PropTypes.func.isRequired,
         imgUrl: PropTypes.string.isRequired,
         overrideAddToCartBtnBehavior: PropTypes.bool.isRequired,
